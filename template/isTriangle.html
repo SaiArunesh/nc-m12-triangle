@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../styles.css
+    ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark 12 Triangle</title>
+</head>
+
+<body>
+    <h1 class="title">Mark 12 Triangle</h1>
+    <nav>
+        <a href="../index.html">Go Home</a>
+    </nav>
+    <div class="content">
+        <div class="input-field">
+            <label for="angle1">Angle 1</label>
+            <input class="input-angle" type="number" min=0 max=180 required>
+        </div>
+        <div class="input-field">
+            <label for="angle2">Angle 2</label>
+            <input class="input-angle" type="number" min=0 max=180 required>
+        </div>
+        <div class="input-field">
+            <label for="angle3">Angle 3</label>
+            <input class="input-angle" type="number" min=0 max=180 required>
+        </div>
+        <button type="submit" id="check-button" onclick="checkTriangle()">Check</button>
+        <p class="output"></p>
+    </div>
+    <script src="../js/isTriangle.js"></script>
+</body>
+
+</html>
